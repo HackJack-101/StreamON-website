@@ -40,7 +40,15 @@ function i18n() {
      * @returns {String} Language of the client browser
      */
     this.getLocale = function () {
-        return navigator.language || "en";
+        switch (navigator.language) {
+            case 'fr':
+            case 'fr-FR':
+                return 'fr';
+            case 'en':
+            case 'en-US':
+            default:
+                return 'en';
+        }
     };
 
     /**

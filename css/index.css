@@ -10,7 +10,6 @@ a, a:visited, a:hover {
 }
 
 header a, header a:visited, header a:hover, footer a, footer a:visited, footer a:hover {
-    text-transform: capitalize;
     color: #DCDCDC;
     border-bottom: 2px solid transparent;
 }
@@ -375,22 +374,22 @@ a.button:hover {
 }
 
 #free {
-    height: 120px !important;
+    height: 100px !important;
 }
 
 #supportedStreaming {
-    height: 110px !important;
+    height: 50px !important;
 }
 #permissions {
-    height: 160px !important;
+    height: 200px !important;
 }
 
 #improvements {
-    height: 170px !important;
+    height: 140px !important;
 }
 
 #donations {
-    height: 70px !important;
+    height: 50px !important;
     padding-bottom: 20px;
 }
 
